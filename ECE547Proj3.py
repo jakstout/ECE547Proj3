@@ -8,8 +8,8 @@ from scapy.all import rdpcap
 from scapy.layers.inet import IP
 
 # --- CONFIG ---
-PCAP_DIR = 'path_to_extracted_pcap_files'  # Replace with your folder path
-QUANTUMS = [60, 300, 600]  # 1 min, 5 min, 10 min in seconds
+PCAP_DIR = r'C:\Users\jstou\OneDrive\Desktop\54700 projects\PCAP-20181103 (1)\PCAP-20181103'
+QUANTUMS = [300, 600]  # 1 min, 5 min, 10 min in seconds
 PLOT_OUTPUT_DIR = 'charts'
 
 os.makedirs(PLOT_OUTPUT_DIR, exist_ok=True)
